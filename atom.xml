@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-19T18:05:42.017Z</updated>
+  <updated>2022-02-19T18:12:06.801Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <title>First</title>
     <link href="http://example.com/2022/02/20/First/"/>
     <id>http://example.com/2022/02/20/First/</id>
-    <published>2022-02-19T16:45:10.000Z</published>
-    <updated>2022-02-19T18:05:42.017Z</updated>
+    <published>2022-02-19T16:45:10.878Z</published>
+    <updated>2022-02-19T18:12:06.801Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="d对方的"><a href="#d对方的" class="headerlink" title="d对方的"></a>d对方的</h3><p>打发打发</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="d对方的"><a href="#d对方的" class="headerlink" title="d对方的"></a>d对方的</h3><p>打发打发</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">color</span>:</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -34,8 +34,6 @@
     
     
     
-    
-    <category term="fulexxxxxx" scheme="http://example.com/tags/fulexxxxxx/"/>
     
   </entry>
   

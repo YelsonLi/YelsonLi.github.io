@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-20T10:31:44.698Z</updated>
+  <updated>2022-02-20T12:24:53.007Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,53 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>third</title>
-    <link href="http://example.com/2022/02/20/third/"/>
-    <id>http://example.com/2022/02/20/third/</id>
-    <published>2022-02-20T07:19:31.000Z</published>
-    <updated>2022-02-20T10:31:44.698Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="xxxxx"><a href="#xxxxx" class="headerlink" title="xxxxx"></a>xxxxx</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你好，世界！</span><br></pre></td></tr></table></figure><p>我来啦我来啦</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;xxxxx&quot;&gt;&lt;a href=&quot;#xxxxx&quot; class=&quot;headerlink&quot; title=&quot;xxxxx&quot;&gt;&lt;/a&gt;xxxxx&lt;/h4&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="python" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/python/"/>
-    
-    
-    <category term="初尝" scheme="http://example.com/tags/%E5%88%9D%E5%B0%9D/"/>
-    
-    <category term="再尝" scheme="http://example.com/tags/%E5%86%8D%E5%B0%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Second</title>
-    <link href="http://example.com/2022/02/20/second/"/>
-    <id>http://example.com/2022/02/20/second/</id>
+    <title>De-Travel</title>
+    <link href="http://example.com/2022/02/20/De-Travel/"/>
+    <id>http://example.com/2022/02/20/De-Travel/</id>
     <published>2022-02-19T18:15:41.000Z</published>
-    <updated>2022-02-20T07:40:54.982Z</updated>
+    <updated>2022-02-20T12:24:53.007Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="HHH"><a href="#HHH" class="headerlink" title="HHH"></a>HHH</h2><p>小问题</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">color</span>:</span><br><span class="line">    wuhuuhuh</span><br><span class="line">    </span><br><span class="line">    </span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class:</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;HHH&quot;&gt;&lt;a href=&quot;#HHH&quot; class=&quot;headerlink&quot; title=&quot;HHH&quot;&gt;&lt;/a&gt;HHH&lt;/h2&gt;&lt;p&gt;小问题&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut</summary>
+    <summary type="html">&lt;h3 id=&quot;调试过程很艰难，呜呜呜&quot;&gt;&lt;a href=&quot;#调试过程很艰难，呜呜呜&quot; class=&quot;headerlink&quot; title=&quot;调试过程很艰难，呜呜呜&quot;&gt;&lt;/a&gt;调试过程很艰难，呜呜呜&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;tab</summary>
       
     
     
     
+    <category term="技术 - 娱乐" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF-%E5%A8%B1%E4%B9%90/"/>
     
-    <category term="初尝" scheme="http://example.com/tags/%E5%88%9D%E5%B0%9D/"/>
+    <category term="休闲" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF-%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2/"/>
+    
+    
+    <category term="旅程" scheme="http://example.com/tags/%E6%97%85%E7%A8%8B/"/>
+    
+    <category term="探索" scheme="http://example.com/tags/%E6%8E%A2%E7%B4%A2/"/>
     
   </entry>
   

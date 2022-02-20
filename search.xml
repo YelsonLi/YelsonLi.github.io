@@ -4,46 +4,27 @@
   
     
     <entry>
-      <title>third</title>
-      <link href="/2022/02/20/third/"/>
-      <url>/2022/02/20/third/</url>
+      <title>De-Travel</title>
+      <link href="/2022/02/20/De-Travel/"/>
+      <url>/2022/02/20/De-Travel/</url>
       
-        <content type="html"><![CDATA[<h4 id="xxxxx"><a href="#xxxxx" class="headerlink" title="xxxxx"></a>xxxxx</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你好，世界！</span><br></pre></td></tr></table></figure><p>我来啦我来啦</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> 技术 </category>
+          <category> 技术 - 娱乐 </category>
           
-          <category> python </category>
+          <category> 休闲 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 初尝 </tag>
+            <tag> 旅程 </tag>
             
-            <tag> 再尝 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Second</title>
-      <link href="/2022/02/20/second/"/>
-      <url>/2022/02/20/second/</url>
-      
-        <content type="html"><![CDATA[<h2 id="HHH"><a href="#HHH" class="headerlink" title="HHH"></a>HHH</h2><p>小问题</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">color</span>:</span><br><span class="line">    wuhuuhuh</span><br><span class="line">    </span><br><span class="line">    </span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class:</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 初尝 </tag>
+            <tag> 探索 </tag>
             
         </tags>
       

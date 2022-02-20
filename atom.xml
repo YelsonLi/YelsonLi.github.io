@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YelsonLi</title>
   
-  
+  <subtitle>熟悉-反复</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-19T18:19:48.172Z</updated>
+  <updated>2022-02-20T06:07:00.529Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,24 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>second</title>
+    <title>第一次使用试试看咯~</title>
     <link href="http://example.com/2022/02/20/second/"/>
     <id>http://example.com/2022/02/20/second/</id>
     <published>2022-02-19T18:15:41.000Z</published>
-    <updated>2022-02-19T18:19:48.172Z</updated>
+    <updated>2022-02-20T06:07:00.529Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="真的帅"><a href="#真的帅" class="headerlink" title="真的帅"></a>真的帅</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">color</span>:</span><br><span class="line">    wuhuuhuh</span><br><span class="line">    </span><br><span class="line">    </span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class:</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello, world&quot;</span>)</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">color</span>:</span><br><span class="line">    wuhuuhuh</span><br><span class="line">    </span><br><span class="line">    </span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">class:</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;真的帅&quot;&gt;&lt;a href=&quot;#真的帅&quot; class=&quot;headerlink&quot; title=&quot;真的帅&quot;&gt;&lt;/a&gt;真的帅&lt;/h2&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;</summary>
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;</summary>
       
     
     
     
     
-    <category term="second" scheme="http://example.com/tags/second/"/>
+    <category term="第一次" scheme="http://example.com/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
+    
+    <category term="初尝" scheme="http://example.com/tags/%E5%88%9D%E5%B0%9D/"/>
     
   </entry>
   

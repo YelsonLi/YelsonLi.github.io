@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-20T12:24:53.007Z</updated>
+  <updated>2022-02-20T12:31:00.162Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/02/20/De-Travel/"/>
     <id>http://example.com/2022/02/20/De-Travel/</id>
     <published>2022-02-19T18:15:41.000Z</published>
-    <updated>2022-02-20T12:24:53.007Z</updated>
+    <updated>2022-02-20T12:31:00.162Z</updated>
     
     <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -33,9 +33,7 @@
     
     
     
-    <category term="技术 - 娱乐" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF-%E5%A8%B1%E4%B9%90/"/>
-    
-    <category term="休闲" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF-%E5%A8%B1%E4%B9%90/%E4%BC%91%E9%97%B2/"/>
+    <category term="技术 娱乐 - python - 内容" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF-%E5%A8%B1%E4%B9%90-python-%E5%86%85%E5%AE%B9/"/>
     
     
     <category term="旅程" scheme="http://example.com/tags/%E6%97%85%E7%A8%8B/"/>

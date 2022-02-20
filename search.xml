@@ -11,10 +11,20 @@
         <content type="html"><![CDATA[<h4 id="xxxxx"><a href="#xxxxx" class="headerlink" title="xxxxx"></a>xxxxx</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你好，世界！</span><br></pre></td></tr></table></figure><p>我来啦我来啦</p>]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> python </category>
+          
+      </categories>
+      
       
         <tags>
             
             <tag> 初尝 </tag>
+            
+            <tag> 再尝 </tag>
             
         </tags>
       

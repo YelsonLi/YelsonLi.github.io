@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-20T07:41:46.341Z</updated>
+  <updated>2022-02-20T10:31:44.698Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/02/20/third/"/>
     <id>http://example.com/2022/02/20/third/</id>
     <published>2022-02-20T07:19:31.000Z</published>
-    <updated>2022-02-20T07:41:46.341Z</updated>
+    <updated>2022-02-20T10:31:44.698Z</updated>
     
     <content type="html"><![CDATA[<h4 id="xxxxx"><a href="#xxxxx" class="headerlink" title="xxxxx"></a>xxxxx</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你好，世界！</span><br></pre></td></tr></table></figure><p>我来啦我来啦</p>]]></content>
     
@@ -33,8 +33,14 @@
     
     
     
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="python" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/python/"/>
+    
     
     <category term="初尝" scheme="http://example.com/tags/%E5%88%9D%E5%B0%9D/"/>
+    
+    <category term="再尝" scheme="http://example.com/tags/%E5%86%8D%E5%B0%9D/"/>
     
   </entry>
   

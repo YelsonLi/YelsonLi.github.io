@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-20T14:46:22.064Z</updated>
+  <updated>2022-02-20T14:54:11.325Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>De-Travel</title>
-    <link href="http://example.com/2022/02/20/De-Travel/"/>
-    <id>http://example.com/2022/02/20/De-Travel/</id>
+    <title>DeTravel</title>
+    <link href="http://example.com/2022/02/20/DeTravel/"/>
+    <id>http://example.com/2022/02/20/DeTravel/</id>
     <published>2022-02-19T18:15:41.000Z</published>
-    <updated>2022-02-20T14:46:22.064Z</updated>
+    <updated>2022-02-20T14:54:11.325Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><p><img src="/.com//image-20220220224206902.png" alt="image-20220220224206902"></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><p><img src="/2022/02/20/DeTravel/image-20220220225346079.png" alt="image-20220220225346079"></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">调试</summary>

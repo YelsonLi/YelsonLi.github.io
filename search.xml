@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>De-Travel</title>
-      <link href="/2022/02/20/De-Travel/"/>
-      <url>/2022/02/20/De-Travel/</url>
+      <title>DeTravel</title>
+      <link href="/2022/02/20/DeTravel/"/>
+      <url>/2022/02/20/DeTravel/</url>
       
-        <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><p><img src="/.com//image-20220220224206902.png" alt="image-20220220224206902"></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="调试过程很艰难，呜呜呜"><a href="#调试过程很艰难，呜呜呜" class="headerlink" title="调试过程很艰难，呜呜呜"></a>调试过程很艰难，呜呜呜</h3><p><img src="/2022/02/20/DeTravel/image-20220220225346079.png" alt="image-20220220225346079"></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pirntf(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>

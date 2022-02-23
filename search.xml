@@ -31,6 +31,33 @@
     
     
     <entry>
+      <title>Git小细节</title>
+      <link href="/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/"/>
+      <url>/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一"><a href="#一" class="headerlink" title="一."></a>一.</h3><p>只有commit过的分支使用 git branch -a 等查询分支命令才能看到分支名</p><p>比如要修改分支名，先commit再git branch -m “xxx”</p><h3 id="二"><a href="#二" class="headerlink" title="二."></a>二.</h3><p>从Github&#x2F;Gitee创建的远程仓库项目分支fetch到本地后，idea会自动创建红色部分文件：</p><p><img src="/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/image-20220223191807472.png" alt="image-20220223191807472"></p><p>git fetch并没有建立upstream，所以不可使用简化命令</p><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的，解决方法：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r --cached .</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&#x27;update .gitignore&#x27;</span></span><br></pre></td></tr></table></figure><p>我们需要使用’git rm -r –cached .’命令清除一下相关的缓存内容.这样文件将以未追踪的形式出现.然后再重新添加提交一下,.gitignore文件里的规则就可以起作用了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>IDEA-gitignore模板</title>
       <link href="/2022/02/23/idea-gitignore%E6%A8%A1%E6%9D%BF/"/>
       <url>/2022/02/23/idea-gitignore%E6%A8%A1%E6%9D%BF/</url>

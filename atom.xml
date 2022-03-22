@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-22T11:41:55.216Z</updated>
+  <updated>2022-03-22T12:11:37.617Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git fatal: refusing to merge unrelated histories</title>
+    <link href="http://example.com/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/"/>
+    <id>http://example.com/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/</id>
+    <published>2022-03-22T11:47:26.000Z</published>
+    <updated>2022-03-22T12:11:37.617Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>解决：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge cur/temp --allow-unrelated-histories</span><br></pre></td></tr></table></figure><p><strong>很可能还需要：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">upstream</span><br><span class="line"><span class="comment"># 并</span></span><br><span class="line">git push -f</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">解决Git fatal: refusing to merge unrelated histories</summary>
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Git" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Git/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Git-Reset</title>
@@ -93,8 +116,8 @@
   
   <entry>
     <title>Linux-云服务器</title>
-    <link href="http://example.com/2022/03/22/Linux-ECS%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://example.com/2022/03/22/Linux-ECS%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <link href="http://example.com/2022/03/22/Linux-%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://example.com/2022/03/22/Linux-%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2022-03-22T10:55:03.000Z</published>
     <updated>2022-03-22T11:04:33.757Z</updated>
     
@@ -110,6 +133,33 @@
     <category term="Linux" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Linux/"/>
     
     <category term="云服务器" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Linux/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux-端口-进程</title>
+    <link href="http://example.com/2022/03/22/Linux-%E7%AB%AF%E5%8F%A3-%E8%BF%9B%E7%A8%8B/"/>
+    <id>http://example.com/2022/03/22/Linux-%E7%AB%AF%E5%8F%A3-%E8%BF%9B%E7%A8%8B/</id>
+    <published>2022-03-22T10:49:55.000Z</published>
+    <updated>2022-03-22T12:12:46.953Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Linux-端口-进程"><a href="#Linux-端口-进程" class="headerlink" title="Linux-端口-进程"></a>Linux-端口-进程</h3><p><strong>查看某端口号进程</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">netstat -atunp | grep &lt;port&gt;</span><br><span class="line"><span class="comment"># 通过nginx进程pid查看占用端口（进程pid）</span></span><br><span class="line">命令：</span><br><span class="line">netstat -nap | grep &lt;pid&gt;</span><br></pre></td></tr></table></figure><p><strong>kill进程</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">kill</span> -9 &lt;进程号&gt;</span><br></pre></td></tr></table></figure><p><strong>查看当前进程</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ps -ef</span><br><span class="line"><span class="comment"># 例如 查看nginx进程pid：</span></span><br><span class="line">命令：<span class="comment"># 查看某进程</span></span><br><span class="line">ps -ef | grep nginx</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">Linux-端口与进程相关命令</summary>
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Linux/"/>
+    
+    <category term="端口" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/"/>
+    
+    <category term="进程" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/%E8%BF%9B%E7%A8%8B/"/>
     
     
     <category term="Linux" scheme="http://example.com/tags/Linux/"/>
@@ -165,11 +215,11 @@
   </entry>
   
   <entry>
-    <title>Git场景备忘</title>
+    <title>Git-Branch</title>
     <link href="http://example.com/2022/02/23/Git-Branch/"/>
     <id>http://example.com/2022/02/23/Git-Branch/</id>
     <published>2022-02-23T08:02:54.000Z</published>
-    <updated>2022-03-22T12:05:44.861Z</updated>
+    <updated>2022-03-22T12:10:26.397Z</updated>
     
     <content type="html"><![CDATA[<h3 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a>git branch</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git branch<span class="comment"># 查看本地当前有哪些分支，且显示当前所在分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有分支，包括远端，且显示track关系</span></span><br><span class="line">git branch -v<span class="comment"># 查看本地分支，以及分支上最新的commit提交信息</span></span><br><span class="line">git branch -vv   <span class="comment"># 在-v基础上，多实现本地分支和远程分支的关联关系</span></span><br><span class="line">git branch &lt;新分支名&gt;<span class="comment"># 创建一个新的分支</span></span><br></pre></td></tr></table></figure><p><strong>修改分支名</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m &lt;旧分支名&gt; &lt;新分支名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除本地分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;本地某个branch名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除远程分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete &lt;远程分支名&gt;</span><br></pre></td></tr></table></figure>]]></content>
     

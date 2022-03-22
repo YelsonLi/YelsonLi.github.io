@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>Git-Reset</title>
+      <link href="/2022/03/22/Git-Reset/"/>
+      <url>/2022/03/22/Git-Reset/</url>
+      
+        <content type="html"><![CDATA[<h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset<span class="comment"># 将执行git add操作的(暂存区)中的文件清空</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git-Clone-Pull-Push-仓库/分支关联(初始部分)</title>
+      <link href="/2022/03/22/Git-Clone-Push-Pull-%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9B%B8%E5%85%B3/"/>
+      <url>/2022/03/22/Git-Clone-Push-Pull-%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9B%B8%E5%85%B3/</url>
+      
+        <content type="html"><![CDATA[<h3 id="git-clone"><a href="#git-clone" class="headerlink" title="git clone"></a>git clone</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> &lt;版本库url&gt;</span><br></pre></td></tr></table></figure><h4 id="如果不想让远程仓库和本地目录同名"><a href="#如果不想让远程仓库和本地目录同名" class="headerlink" title="如果不想让远程仓库和本地目录同名:"></a>如果不想让远程仓库和本地目录同名:</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> &lt;版本库url&gt; &lt;本地目录名&gt;</span><br></pre></td></tr></table></figure><h3 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a>git pull</h3><p>git pull是<strong>拉取远程分支</strong>并<strong>更新到本地仓库</strong>的操作</p><p>用于需要把新内容下载下来</p><p>事实上就是: git pull 从远程仓库获取最新版本，再与本地分支merge</p><p>注: git fetch<strong>不会</strong>进行merge, 如果需要则<strong>必须手动merge</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull = git fetch + git merge<span class="comment"># git merge 是让指定(想要选中)的branch合并(merge)到当前你所在的分支</span></span><br></pre></td></tr></table></figure><p><strong>git pull 常用场景用法:</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin main:branchtest</span><br><span class="line">git merge branchtest</span><br></pre></td></tr></table></figure><p><strong>若用git fetch操作(常用)</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin main:branchtest</span><br><span class="line">git merge branchtest</span><br></pre></td></tr></table></figure><h3 id="本地仓库添加-关联-远程仓库"><a href="#本地仓库添加-关联-远程仓库" class="headerlink" title="本地仓库添加(关联)远程仓库"></a>本地仓库添加(关联)远程仓库</h3><p><strong>查看本地仓库和远程仓库的关联详情</strong></p><p><strong>关联详情！！！</strong></p><p><strong>关联详情！！！</strong></p><p><strong>关联详情！！！</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><p><strong>本地Git关联(添加)远程库</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin &lt;远程库url&gt;</span><br></pre></td></tr></table></figure><p><strong>添加(关联)后，第一次要push或者pull</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main<span class="comment"># -u参数不但会推送，还会将本地分支和远程分支关联起来，以后推送或拉取就可以简化命令</span></span><br></pre></td></tr></table></figure><p><strong>解除远程仓库和本地仓库的关联</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote <span class="built_in">rm</span> &lt;远程仓库名&gt;</span><br><span class="line"><span class="comment"># 例：</span></span><br><span class="line">git remote <span class="built_in">rm</span> origin</span><br></pre></td></tr></table></figure><p><strong>本地分支 与 远程分支 建立关联</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin &lt;远程分支名&gt;</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">git push --set-upstream origin &lt;远程分支名&gt;</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">git branch --set-upstream-to=origin/&lt;远程分支名&gt; &lt;本地分支名&gt;</span><br></pre></td></tr></table></figure><p><strong>解除当前分支关联</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --unset-upstream</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux-内存-显存-硬盘</title>
       <link href="/2022/03/22/Linux-%E5%86%85%E5%AD%98-%E6%98%BE%E5%AD%98-%E7%A1%AC%E7%9B%98/"/>
       <url>/2022/03/22/Linux-%E5%86%85%E5%AD%98-%E6%98%BE%E5%AD%98-%E7%A1%AC%E7%9B%98/</url>
@@ -95,60 +149,6 @@
     
     
     <entry>
-      <title>Git配置上的一些命令</title>
-      <link href="/2022/02/23/Git%E9%85%8D%E7%BD%AE%E4%B8%8A%E7%9A%84%E4%B8%80%E4%BA%9B%E5%91%BD%E4%BB%A4/"/>
-      <url>/2022/02/23/Git%E9%85%8D%E7%BD%AE%E4%B8%8A%E7%9A%84%E4%B8%80%E4%BA%9B%E5%91%BD%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<p>…</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-          <category> Git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Git小细节</title>
-      <link href="/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/"/>
-      <url>/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/</url>
-      
-        <content type="html"><![CDATA[<h3 id="一"><a href="#一" class="headerlink" title="一."></a>一.</h3><p>只有commit过的分支使用 git branch -a 等查询分支命令才能看到分支名</p><p>比如要修改分支名，先commit再git branch -m “xxx”</p><h3 id="二"><a href="#二" class="headerlink" title="二."></a>二.</h3><p>从Github&#x2F;Gitee创建的远程仓库项目分支fetch到本地后，idea会自动创建红色部分文件：</p><p><img src="/2022/02/23/Git%E5%B0%8F%E7%BB%86%E8%8A%82/image-20220223191807472.png" alt="image-20220223191807472"></p><p>git fetch并没有建立upstream，所以不可使用简化命令</p><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的，解决方法：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r --cached .</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&#x27;update .gitignore&#x27;</span></span><br></pre></td></tr></table></figure><p>我们需要使用’git rm -r –cached .’命令清除一下相关的缓存内容.这样文件将以未追踪的形式出现.然后再重新添加提交一下,.gitignore文件里的规则就可以起作用了</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-          <category> Git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>IDEA-gitignore模板</title>
       <link href="/2022/02/23/idea-gitignore%E6%A8%A1%E6%9D%BF/"/>
       <url>/2022/02/23/idea-gitignore%E6%A8%A1%E6%9D%BF/</url>
@@ -177,10 +177,10 @@
     
     <entry>
       <title>Git场景备忘</title>
-      <link href="/2022/02/23/Git%E5%9C%BA%E6%99%AF%E5%A4%87%E5%BF%98/"/>
-      <url>/2022/02/23/Git%E5%9C%BA%E6%99%AF%E5%A4%87%E5%BF%98/</url>
+      <link href="/2022/02/23/Git-Branch/"/>
+      <url>/2022/02/23/Git-Branch/</url>
       
-        <content type="html"><![CDATA[<h3 id="git-clone"><a href="#git-clone" class="headerlink" title="git clone"></a>git clone</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> &lt;版本库url&gt;</span><br></pre></td></tr></table></figure><h4 id="如果不想让远程仓库和本地目录同名"><a href="#如果不想让远程仓库和本地目录同名" class="headerlink" title="如果不想让远程仓库和本地目录同名:"></a>如果不想让远程仓库和本地目录同名:</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> &lt;版本库url&gt; &lt;本地目录名&gt;</span><br></pre></td></tr></table></figure><h3 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a>git pull</h3><p>git pull是<strong>拉取远程分支</strong>并<strong>更新到本地仓库</strong>的操作</p><p>用于需要把新内容下载下来</p><p>事实上就是: git pull 从远程仓库获取最新版本，再与本地分支merge</p><p>注: git fetch<strong>不会</strong>进行merge, 如果需要则<strong>必须手动merge</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull = git fetch + git merge<span class="comment"># git merge 是让指定(想要选中)的branch合并(merge)到当前你所在的分支</span></span><br></pre></td></tr></table></figure><p><strong>git pull 常用场景用法:</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git pull &lt;远程库名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;<span class="comment"># 默认第一次与本地关联的远程库名为origin</span></span><br><span class="line"><span class="comment"># 例 将远程库origin的main分支拉取过来，与本地的branchtest分支合并</span></span><br><span class="line">git pull origin main:branchtest</span><br><span class="line"><span class="comment"># 如果将 &#x27;&#x27;:&#x27;&#x27; 和后面的 branchtest 去掉，则表示将远程origin仓库的main分支拉取下来</span></span><br><span class="line"><span class="comment"># 并且与本地当前分支合并</span></span><br></pre></td></tr></table></figure><p><strong>以上操作如果用git fetch操作(常用)</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin main:branchtest</span><br><span class="line">git merge branchtest</span><br></pre></td></tr></table></figure><h3 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a>git branch</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git branch<span class="comment"># 查看本地当前有哪些分支，且显示当前所在分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有分支，包括远端，且显示track关系</span></span><br><span class="line">git branch -v<span class="comment"># 查看本地分支，以及分支上最新的commit提交信息</span></span><br><span class="line">git branch -vv   <span class="comment"># 在-v基础上，多实现本地分支和远程分支的关联关系</span></span><br><span class="line">git branch &lt;新分支名&gt;<span class="comment"># 创建一个新的分支</span></span><br></pre></td></tr></table></figure><p><strong>修改分支名</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m &lt;旧分支名&gt; &lt;新分支名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除本地分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;本地某个branch名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除远程分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete &lt;远程分支名&gt;</span><br></pre></td></tr></table></figure><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset<span class="comment"># 将执行git add操作的(暂存区)中的文件清空</span></span><br></pre></td></tr></table></figure><h3 id="本地仓库添加-关联-远程仓库"><a href="#本地仓库添加-关联-远程仓库" class="headerlink" title="本地仓库添加(关联)远程仓库"></a>本地仓库添加(关联)远程仓库</h3><p><strong>查看本地仓库和远程仓库的关联详情</strong></p><p><strong>不是分支详情！</strong></p><p><strong>不是分支详情！</strong></p><p><strong>不是分支详情</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><p><strong>本地想关联远程库一定要先在远程(Github&#x2F;Gitee)创建远程库，这样才有远程库url</strong></p><p>所以我想到的流程一般是：</p><p>Github&#x2F;Gitee创建空的远程库，添加License和Readme.md，在IDEA等工具中，从VCS中创建项目，</p><p>相当于git clone，之后进行开发</p><p>不适用IDE则，在本地一个文件夹中执行git clone，之后进行开发</p><p>下面这行的 <strong>origin</strong> 就是Git默认远程库名</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin &lt;远程库url&gt;<span class="comment"># 本地库添加远程库</span></span><br></pre></td></tr></table></figure><p><strong>添加(关联)后，要push或者pull</strong></p><p><strong>本地库第一次push到指定远程库的某个分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main<span class="comment"># -u参数不但会推送，还会将本地分支和远程分支关联起来，以后推送或拉取就可以简化命令</span></span><br></pre></td></tr></table></figure><p>origin我的理解是相当于和一个url绑定了</p><p><strong>解除远程仓库和本地仓库的关联</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote <span class="built_in">rm</span> &lt;远程仓库名&gt;</span><br><span class="line"><span class="comment"># 例：</span></span><br><span class="line">git remote <span class="built_in">rm</span> origin</span><br></pre></td></tr></table></figure><p>建立分支关联方式：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin &lt;远程分支名&gt;</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">git push --set-upstream origin &lt;远程分支名&gt;</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">git branch --set-upstream-to=origin/&lt;远程分支名&gt; &lt;本地分支名&gt;</span><br></pre></td></tr></table></figure><p><strong>没有建立upstream关联的分支，无法使用简化命令</strong></p><p>解除当前分支关联</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --unset-upstream</span><br></pre></td></tr></table></figure><p><strong>当没有第一时间创建远程库，此时又想新建远程库和本地库对接上：</strong></p><ol><li><p>git fetch到一个临时分支</p></li><li><p>merge到源本地分支</p><p>会报错 fatal: refusing to merge unrelated histories</p><p>解决: git merge cur&#x2F;temp –allow-unrelated-histories</p><p><strong>注意：确保没有合并错分支</strong></p></li><li><p>删除临时分支</p></li><li><p>upstream 并 git push -f</p></li></ol><p><strong>建议还是一开始写项目就想好要不要放在远程仓库中！！！</strong></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a>git branch</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git branch<span class="comment"># 查看本地当前有哪些分支，且显示当前所在分支</span></span><br><span class="line">git branch -a       <span class="comment"># 查看所有分支，包括远端，且显示track关系</span></span><br><span class="line">git branch -v<span class="comment"># 查看本地分支，以及分支上最新的commit提交信息</span></span><br><span class="line">git branch -vv   <span class="comment"># 在-v基础上，多实现本地分支和远程分支的关联关系</span></span><br><span class="line">git branch &lt;新分支名&gt;<span class="comment"># 创建一个新的分支</span></span><br></pre></td></tr></table></figure><p><strong>修改分支名</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m &lt;旧分支名&gt; &lt;新分支名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除本地分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;本地某个branch名&gt;</span><br></pre></td></tr></table></figure><p><strong>删除远程分支</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete &lt;远程分支名&gt;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>

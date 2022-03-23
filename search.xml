@@ -8,7 +8,7 @@
       <link href="/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/"/>
       <url>/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/</url>
       
-        <content type="html"><![CDATA[<p><strong>解决：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge cur/temp --allow-unrelated-histories</span><br></pre></td></tr></table></figure><p><strong>很可能还需要：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">upstream</span><br><span class="line"><span class="comment"># 并</span></span><br><span class="line">git push -f</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p><strong>解决：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;branch&gt; --allow-unrelated-histories</span><br></pre></td></tr></table></figure><p><strong>很可能还需要：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">upstream</span><br><span class="line"><span class="comment"># 并</span></span><br><span class="line">git push -f</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>

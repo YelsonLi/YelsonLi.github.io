@@ -6,7 +6,7 @@
   <link href="https://yelsonli.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelsonli.github.io/"/>
-  <updated>2022-03-26T14:04:28.702Z</updated>
+  <updated>2022-03-26T14:08:02.718Z</updated>
   <id>https://yelsonli.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yelsonli.github.io/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/"/>
     <id>https://yelsonli.github.io/2022/03/22/Git-fatal-refusing-to-merge-unrelated-histories/</id>
     <published>2022-03-22T11:47:26.000Z</published>
-    <updated>2022-03-26T14:04:28.702Z</updated>
+    <updated>2022-03-26T14:08:02.718Z</updated>
     
     <content type="html"><![CDATA[<p><strong>解决：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;branch&gt; --allow-unrelated-histories</span><br></pre></td></tr></table></figure><p><strong>很可能还需要：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">upstream</span><br><span class="line"><span class="comment"># 并</span></span><br><span class="line">git push -f</span><br></pre></td></tr></table></figure>]]></content>
     

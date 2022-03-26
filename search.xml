@@ -89,7 +89,7 @@
       <link href="/2022/03/22/Linux-%E5%86%85%E5%AD%98-%E6%98%BE%E5%AD%98-%E7%A1%AC%E7%9B%98/"/>
       <url>/2022/03/22/Linux-%E5%86%85%E5%AD%98-%E6%98%BE%E5%AD%98-%E7%A1%AC%E7%9B%98/</url>
       
-        <content type="html"><![CDATA[<h3 id="Linux-显存"><a href="#Linux-显存" class="headerlink" title="Linux 显存"></a>Linux 显存</h3><p><strong>查看nvidia显存</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="Linux-显存"><a href="#Linux-显存" class="headerlink" title="Linux 显存"></a>Linux 显存</h3><p><strong>查看nvidia显存</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure><p>(持续更新ing</p>]]></content>
       
       
       <categories>

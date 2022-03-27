@@ -1,15 +1,18 @@
 /* 全局默认鼠标指针 */
 body,
 html{
-  cursor: url('https://npm.elemecdn.com/akilar-candyassets/cur/arrow.cur'),auto !important;
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+    default;
 }
 /* 悬停图片时的鼠标指针 */
 img{
-  cursor: url('https://npm.elemecdn.com/akilar-candyassets/cur/btn.cur'),auto !important;
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    default;
 }
 /* 选择链接标签时的鼠标指针 */
 a:hover{
-    cursor: url('https://npm.elemecdn.com/akilar-candyassets/cur/link.cur'),auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
 }
 /* 选中输入框时的鼠标指针 */
 input:hover{

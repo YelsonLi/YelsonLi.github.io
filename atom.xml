@@ -6,7 +6,7 @@
   <link href="https://yelsonli.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelsonli.github.io/"/>
-  <updated>2022-03-26T14:52:58.695Z</updated>
+  <updated>2022-03-28T08:14:40.429Z</updated>
   <id>https://yelsonli.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JetBrains-代码颜色设置</title>
+    <link href="https://yelsonli.github.io/2022/03/28/JetBrains-%E4%BB%A3%E7%A0%81%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://yelsonli.github.io/2022/03/28/JetBrains-%E4%BB%A3%E7%A0%81%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/</id>
+    <published>2022-03-28T08:10:11.000Z</published>
+    <updated>2022-03-28T08:14:40.429Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Setting--&gt;Editor--&gt;Color Scheme --&gt;Language Defaults</span><br></pre></td></tr></table></figure><p>Comments目录下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Block comment// 多行注释 /* */</span><br><span class="line">Line comment // 单行注释 //</span><br><span class="line">Doc Comment// 文档文件 /** */</span><br></pre></td></tr></table></figure><p>找不到可以关键字搜索(如Language)</p><p><img src="/2022/03/28/JetBrains-%E4%BB%A3%E7%A0%81%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/image-20220328161435328.png" alt="image-20220328161435328"></p>]]></content>
+    
+    
+    <summary type="html">JetBrains-代码颜色相关设置</summary>
+    
+    
+    
+    <category term="IDE" scheme="https://yelsonli.github.io/categories/IDE/"/>
+    
+    <category term="JetBrains" scheme="https://yelsonli.github.io/categories/IDE/JetBrains/"/>
+    
+    
+    <category term="JetBrains" scheme="https://yelsonli.github.io/tags/JetBrains/"/>
+    
+  </entry>
   
   <entry>
     <title>Git fatal: refusing to merge unrelated histories</title>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yelsonli.github.io/2022/03/28/JetBrains-%E4%BB%A3%E7%A0%81%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2022-03-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yelsonli.github.io/gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
@@ -209,6 +218,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://yelsonli.github.io/tags/JetBrains/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -283,6 +299,20 @@
   
   <url>
     <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E5%86%85%E5%AD%98/%E6%98%BE%E5%AD%98/%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yelsonli.github.io/categories/IDE/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yelsonli.github.io/categories/IDE/JetBrains/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

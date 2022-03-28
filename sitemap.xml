@@ -226,13 +226,6 @@
   </url>
   
   <url>
-    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Git/</loc>
-    <lastmod>2022-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -240,7 +233,14 @@
   </url>
   
   <url>
-    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/</loc>
+    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Git/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -261,20 +261,6 @@
   </url>
   
   <url>
-    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/%E8%BF%9B%E7%A8%8B/</loc>
-    <lastmod>2022-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E5%86%85%E5%AD%98/%E6%98%BE%E5%AD%98/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -283,6 +269,20 @@
   
   <url>
     <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E5%86%85%E5%AD%98/%E6%98%BE%E5%AD%98/%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yelsonli.github.io/categories/%E6%8A%80%E6%9C%AF/Linux/%E7%AB%AF%E5%8F%A3/%E8%BF%9B%E7%A8%8B/</loc>
     <lastmod>2022-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
